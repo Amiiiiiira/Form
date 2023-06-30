@@ -35,8 +35,7 @@ h1{
 #main-form{
 text-align: center;
 padding: 2%;
-border-style: solid;
-background-color:#feb4b3;
+border-style: solid; 
 box-sizing: content-box;
 border-radius: 10px;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',;
