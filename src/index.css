@@ -6,7 +6,7 @@ body{
 
 #container{
     justify-content: right;
-    background-color: #484bf2;
+    
     border-radius:13px;  
     position: relative;
     justify-items: right;
@@ -27,7 +27,6 @@ margin-left: 25%;
 h1{
     font-size: 2em;
     color:white;
-    text-shadow: -1px 0 white, 0 1px black;
     letter-spacing:.1rem;
     line-height: normal;
     text-align: center;   
