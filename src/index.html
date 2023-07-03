@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" rel="stylesheet">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="app.js"></script>
     <title>Form</title>
 </head>
@@ -15,14 +15,15 @@
         <h1 class="mb-5 text-black font-bold" id="sign-in">
             Sign In 
         </h1>
-        <form id="main-form">
-        <input class="shadow-xl w-80 bg-white rounded font-sans" type="email" id="inputUsername" placeholder="Enter Email Address" !important>
-        </br>
-        </br>
-        <input class="shadow-xl w-80 bg-white rounded font-sans" type="password" id="inputPassword" placeholder="Enter Password">
-    </br>
-        <button href="page 2.html" class="font-sans font-bold font-weight:800 w-40 p-2 rounded bg-gradient-to-r from-red-400 to-blue-500 hover:from-red-400 hover:to-blue-300 ... mt-10">Log In</button>
-        </form>
+        <div class="w-full flex justify-center">
+            <form id="main-form" class="w-80 flex flex-col justify-center items-center space-y-4">
+                <input class="shadow-xl w-full bg-white rounded font-sans px-4 py-2" type="email" id="inputUsername" placeholder="Enter Email Address" !important>
+                <input class="shadow-xl w-full bg-white rounded font-sans px-4 py-2" type="password" id="inputPassword" placeholder="Enter Password">
+        
+                <a href="page2.html" class="justify-center font-sans font-bold font-weight:800 w-40 p-2 rounded bg-gradient-to-r from-red-400 to-blue-500 hover:from-red-400 hover:to-blue-300 ... mt-10">Log In</a>
+            </form>
+        </div>
+       
     </div>
 </body>
 </html>
