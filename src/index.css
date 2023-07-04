@@ -24,7 +24,7 @@ justify-content:center;
 align-items: center;
 margin-left: 25%;
 }
-h1{
+h1, h2{
     font-size: 2em;
     color:white;
     letter-spacing:.1rem;
