@@ -43,7 +43,7 @@ letter-spacing:.1rem;
 line-height:normal;
 }
 
-a{
+#button{
     width:10%;
     margin-top: 15px;
     cursor: pointer;
@@ -64,5 +64,6 @@ iframe{
     height: 250px;
 }
 #jaguar{
-    margin-top: -380px;
+    margin-top:-500px;
 }
+
