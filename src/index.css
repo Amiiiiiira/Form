@@ -58,3 +58,11 @@ a{
 #vertical{
     transform: rotate(90deg);
 }
+
+iframe{
+    width: 450px;
+    height: 250px;
+}
+#jaguar{
+    margin-top: -380px;
+}
