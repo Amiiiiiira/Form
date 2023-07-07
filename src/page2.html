@@ -10,18 +10,26 @@
     <title>Document</title>
 </head>
 <body class="bg-black">
-    <nav class="text-black font-bold ">
+  <nav class="fixed h-full w-32 border-r ">
+    <ul class="mx-4 flex flex-col space-y-12 ...">
+      <li><img src="images/whitepaw.png" class="w-10 hover:bg-white rounded bg-white"></li>
+      <li><img src="images/leaf.png" class="w-10 hover:bg-white rounded bg-white"></li>
+      <li><img src="images/pin.png" class="w-10 hover:bg-white rounded bg-white"></li>
+      <li><img src="images/camerawhite.jpg" class="w-10 hover:bg-white rounded"></li>
+    </ul>
+</nav>
+  <div class="content ml-32 flex min-h-screen">
+    <div class="w-1/2">    
+      <div class="text-black font-bold ">
       <div>
-        <hr id="vertical" class="w-2/12 h-full"/>
-        <h1 class="font-bold text-white my-5 text-2xl w-1/2">
+        <h1 class="font-bold text-white my-5 text-2xl w-1/2 text-left">
           National Park
         </h1>
-        <hr class="w-11/12 float-right divide-white-300">
       </div>
-      </nav>
-      <h2 class="font-bold text-white text-xl float-left ml-40 mt-8">You are here</h2>
+      </div>
+      <h2 class="font-bold text-white text-xl float-left mt-8">You are here</h2>
 <div>
-      <iframe class="ml-40 mt-20 rounded" 
+      <iframe class="mt-20 rounded" 
       src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2373.819916304486!2d-2.2436461378421377!3d53.4895474138838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1688505999944!5m2!1sen!2suk" 
       width="600" 
       height="450" 
@@ -29,24 +37,19 @@
       allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div>
-      <p class="text-white w-1/3 ml-40">Lorem ipsum dolor sit amet consectetur 
+      <p class="text-white w-1/3">Lorem ipsum dolor sit amet consectetur 
         adipisicing elit. Fugiat laborum quaerat libero nobis, 
         cum quia nihil quasi aut asperiores voluptates natus 
         enim earum sequi? Sapiente numquam ullam nesciunt ipsam 
         tenetur. <a href="www.google.com">Read More..</a></p>
     </div>
-    <div>
-      <img id="jaguar" src="images/jag.jpg" class="w-1/2 h-full float-right opacity-60 rounded">
     </div>
-      <nav>
-        <ul class="mx-4 flex flex-col space-y-12 ...">
-          <li><img src="images/whitepaw.png" class="w-10 hover:bg-white rounded bg-white"></li>
-          <li><img src="images/leaf.png" class="w-10 hover:bg-white rounded bg-white"></li>
-          <li><img src="images/pin.png" class="w-10 hover:bg-white rounded bg-white"></li>
-          <li><img src="images/camerawhite.jpg" class="w-10 hover:bg-white rounded"></li>
-        </ul>
-        <hr class="w-1/12 divide-white-300 mt-40"/>
-    </nav>
+    <div class="w-1/2">
+      <img id="jaguar" src="images/jag.jpg" class="w-full h-full opacity-60 rounded">
+    </div>
+  </div>
+   
+      
       
 </body>
 </html>
