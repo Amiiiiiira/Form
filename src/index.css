@@ -57,15 +57,16 @@ line-height:normal;
     transition: all.3s ease-in-out;
     border-radius: 5px;
 }
-#vertical{
-    transform: rotate(90deg);
-}
-
-
 
 iframe{
     width: 450px;
     height: 250px;
 }
-
-
+#container-text{
+    position: relative;
+    text-align: center;
+}
+#title{
+  bottom: 8px;
+  left: 16px;
+}
