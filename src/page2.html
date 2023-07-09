@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
     <title>Document</title>
 </head>
 <body class="bg-black">
   <nav class="fixed h-full w-32 border-r">
-    <ul class="my-8  flex flex-col space-y-12 ...">
+    <ul class="my-8 mx-4 flex flex-col space-y-12 ...">
       <li><img src="images/whitepaw.png" class="w-10 rounded bg-white"></li>
       <li><img src="images/leaf.png" class="w-10 rounded bg-white"></li>
       <li><img src="images/pin.png" class="w-10 rounded bg-white"></li>
       <li><img src="images/camerawhite.jpg" class="w-10 rounded"></li> 
     </ul>
     <div class="border-t mt-56">
-      <img src="images/3lines.png" class="w-10 bg-white rounded mt-20  mx-8">
+      <img src="images/3lines.png" class="w-10 bg-white rounded mt-20 mx-4">
     </div>
 </nav>
   <div class="content ml-32 flex min-h-screen">
@@ -50,7 +50,37 @@
     <div class="mx-10 my-8">
       <h3 class="text-white text-xl">Spot Nearby</h3>
     </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row mb-4 mx-4">
+            <div class="col">
+              <img class="d-block w-100 rounded" src="images/zebra.jpg" alt="First slide">
+            </div>
+            <div class="col">
+              <img class="d-block w-100 rounded" src="images/elephants.jpg" alt="Second slide">
+            </div>
+            <div class="col">
+              <img class="d-block w-100 rounded" src="images/tiger.jpg" alt="Third slide">
+            </div>
+          </div>
+        </div>
+        
+        
+      
 
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
 
 
 
@@ -71,6 +101,8 @@
   </div>
    
       
-      
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>     
 </body>
 </html>
