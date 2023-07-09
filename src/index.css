@@ -70,9 +70,7 @@ iframe{
   bottom: 8px;
   left: 16px;
 }
-/* #zebra, #elephant, #tiger{
-    margin-bottom: 15px;
-}
-#zebra, #elephant{
-    margin-left: 100px;
-} */
+.carousel-item img {
+    height: 100px; 
+    object-fit: cover; 
+  }
