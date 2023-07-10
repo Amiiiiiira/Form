@@ -58,10 +58,6 @@ line-height:normal;
     border-radius: 5px;
 }
 
-iframe{
-    width: 450px;
-    height: 250px;
-}
 #container-text{
     position: relative;
     text-align: center;
@@ -87,4 +83,7 @@ iframe{
     /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     transition: all.3s ease-in-out;
     cursor: pointer; */
+}
+hover: #forward{
+    background-color: white;  
 }
