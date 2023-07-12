@@ -1,5 +1,12 @@
 body{
-    background-image: url('login.jpg');
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-position:unset;
+        background-repeat: no-repeat;
+        background-image: url("images/turtle.jpg");
+}
+#body2{
     position: relative;
     background-position: left;
     width: 100%; 
@@ -10,22 +17,18 @@ body{
 #container{
     justify-content: right;
     border-radius:13px;  
-    position: relative;
-    justify-items: right;
-    width:100%;
-    height:100%;
+    justify-items:center;
     align-items: center;
     padding:1%;
-    margin-top:-8%;
+    margin-top:-10%;
+    position: absolute;
+    margin-top:30px;
+    margin-left:15px;
+    height: 50%;
 
+      
 }
-#login-pic{
-    width:50%;
-    height:50%;
-justify-content:center;
-align-items: center;
-margin-left: 25%;
-}
+
 h1, h2{
     font-size: 2em;
     color:white;
@@ -46,16 +49,22 @@ line-height:normal;
 }
 
 #button{
-    width:10%;
-    margin-top: 15px;
+    width:25%;
+    margin-top: 25px;
     cursor: pointer;
-    padding: 1%;
+    padding: 2%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:white;
-    border-width: thin ;
+    background-color:black;
+    color: white;
+    border-width: thin;
     box-shadow: inset  3px 4px rgba(76, 17);
     transition: all.3s ease-in-out;
     border-radius: 5px;
+}
+#button:hover{
+    transform: scale(.9,.9);
+    opacity:.8;
+    font-size: larger;
 }
 
 #container-text{

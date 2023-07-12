@@ -10,17 +10,19 @@
     <title>Form</title>
 </head>
 <body>
-    <img class="w-16 md:w-32 lg:w-48 mb-5 opacity-75" id="login-pic" src="images/login.jpg">
-    <div id="container" class="opacity-75 bg-slate-100">
-        <h1 class="mb-5 text-black font-bold" id="sign-in">
+    <div id="container" class="opacity-60 bg-black">
+        <h1 class="mb-5 text-white font-bold text-2xl mt-8" id="sign-in">
             Sign In 
         </h1>
-        <div class="w-full flex justify-center">
-            <form id="main-form" class="w-80 flex flex-col justify-center items-center space-y-4">
+        <div class="w-full mt-20 flex justify-center">
+            <form id="main-form" class="w-80 flex flex-col justify-center items-center space-y-8">
                 <input class="shadow-xl w-full bg-white rounded font-sans px-4 py-2" type="email" id="inputUsername" placeholder="Enter Email Address" !important>
                 <input class="shadow-xl w-full bg-white rounded font-sans px-4 py-2" type="password" id="inputPassword" placeholder="Enter Password">
         
-                <a id="button" href="page2.html" class="justify-center font-sans font-bold font-weight:800 w-40 p-2 rounded bg-gradient-to-r from-red-400 to-blue-500 hover:from-red-400 hover:to-blue-300 ... mt-10">Log In</a>
+                <button id="button" type="button" 
+                class="justify-center font-sans font-bold font-weight:800 p-4 rounded bg-black" 
+                onclick="logCredentials();">Log In</button>
+
             </form>
         </div>
        
