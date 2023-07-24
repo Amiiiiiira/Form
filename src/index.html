@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Form</title>
 </head>
 <body id="body1">
@@ -19,13 +19,15 @@
                 <input class="shadow-xl w-full bg-white rounded font-sans px-4 py-2" type="email" id="inputUsername" placeholder="Enter Email Address" !important>
                 <input class="shadow-xl w-full bg-white rounded font-sans px-4 py-2" type="password" id="inputPassword" placeholder="Enter Password">
         
-                <button id="button" type="button" 
-                class="justify-center font-sans font-bold font-weight:800 p-4 rounded bg-black" 
-                onclick="logCredentials();">Log In</button>
+                <button id="button" type="btn" 
+                class="justify-center font-sans 
+                font-bold font-weight:800 
+                p-4 rounded bg-black">Log In</button>
 
             </form>
         </div>
        
     </div>
+    <script defer src="app.js"></script>
 </body>
 </html>
