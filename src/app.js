@@ -8,7 +8,7 @@
 
 function fetchData(event){
 event.preventDefault()
-fetch('https://dummyjson.com/products/categories')
+fetch('https://dummyjson.com/products')
 .then(res => res.json())
 .then(data => console.log(data));
 }
