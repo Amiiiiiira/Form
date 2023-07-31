@@ -14,3 +14,4 @@ fetch('https://dummyjson.com/products')
 }
 
 $('#button').on('click', fetchData);
+
